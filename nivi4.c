@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int num,m,n;
 scanf("%d",&m);
@@ -9,5 +9,4 @@ for (num=m;num<=n;num++)
                if (num % 2 == 1)
                   printf ("%d ", num);
          }
-                getch();
 }
