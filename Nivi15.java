@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class Nivi15{  
+public class Nivi15{  
 public static void main(String args[]){  
 String s = input.nextLine();
 String s2 = input.nextLine();
