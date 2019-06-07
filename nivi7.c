@@ -7,7 +7,7 @@ int main()
     while(originalNumber!=0)
     {
         red=originalNumber%10;
-        res+=red*rer*red;
+        res+=red*red*red;
         originalNumber/=10;
     }
     if(res==n)
