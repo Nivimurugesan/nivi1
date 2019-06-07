@@ -29,7 +29,7 @@ int main()
 		}
 	}
 	
-	printf("Capitalize string is: %s\n",str);
+	printf("%s",str);
 	
 	return 0;
 }
