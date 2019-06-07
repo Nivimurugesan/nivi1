@@ -2,7 +2,6 @@
 int main()
 {
     int n,i,k=0;
-    printf("Enter a integer: ");
     scanf("%d", &n);
 
     for(i=2;i<=n/2;++i)
@@ -20,7 +19,7 @@ int main()
     }
     else 
     {
-        if (flag == 0)
+        if (k==0)
           printf("yes");
         else
           printf("no");
