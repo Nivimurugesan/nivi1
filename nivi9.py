@@ -4,4 +4,4 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 num=int(input())
-print(factorial(num))
+print("%d",num,factorial)
