@@ -2,9 +2,8 @@
 int main()
 {
     int n,rev=0,red,originalInteger;
-    printf("Enter an integer:");
     scanf("%d",&n);
-    originalInteger = n;
+    originalInteger=n;
     while(n!=0)
     {
         red=n%10;
@@ -15,5 +14,5 @@ int main()
         printf("yes");
     else
         printf("no");
-        return 0;
+    return 0;
 }
